@@ -55,10 +55,16 @@ cp .env.example .env
 If you cant copy the environment or is facing difficulty in starting the server , Copy the settings file from
 https://github.com/vigneshhari/keralarescue_test_settings for local testing
 
-Install dependencies
+Install dependencies [help on pipenv](https://docs.pipenv.org/basics/#example-pipenv-workflow)
 
 ```
-pip3 install -r requirements.txt
+pipenv install
+```
+
+Activate virtualenv
+
+```
+pipenv shell
 ```
 
 Run Database migrations
